@@ -1,9 +1,6 @@
+#include <WiFiInfo.h>
 #include <WiFi.h>
 #include <WebSocketsServer.h>
-
-// Constants
-const char* ssid = "MySSID";
-const char* password = "MyPassword";
 
 // Globals
 WebSocketsServer webSocket = WebSocketsServer(80);
